@@ -12,12 +12,12 @@ msg()
 function nome(name){
     console.log(`Oi me chamo ${name}`)
 }
-console.log("Douglas")
+nome("Douglas")
 
 // 3 - crie uma função que receba seu nome, idade, e estilo musical preferido (parâmetros) e exiba no console
 
 function eu(nome,idade,estiloMusicalPreferido ){
-console.log(`Meu nome é ${nome},tenho ${idade} e gosto muito de músicas do estilo musical ${estiloMusicalPreferido}`)
+console.log(`Meu nome é ${nome}, tenho ${idade} anos de idade e gosto muito de músicas do estilo musical ${estiloMusicalPreferido}`)
 }
 eu("Douglas",26,"Pop")
 
